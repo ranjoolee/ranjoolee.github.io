@@ -1,0 +1,15 @@
+body{
+	margin:0;
+	height: 100vh;
+	background: url("pic/cp_1.jpg") no-repeat center;
+	color: #FFF;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-weight: 100;
+	letter-spacing: 0.23em;
+}
