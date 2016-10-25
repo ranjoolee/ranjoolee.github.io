@@ -1,0 +1,48 @@
+body {
+  margin: 10rem;
+}
+
+h2 {
+  border-bottom: 1px solid #1b1a1a;
+  padding-bottom: 4px;
+}
+
+.note-list,
+.note-list ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.note-list li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  background: url("../images/list-icon.png") no-repeat;
+}
+
+.color-numbering,
+.color-numbering ol {
+  padding-left: 1em;
+  color: #ffe400;
+}
+dt {
+    padding-left: 1em;
+    padding-top: 1em;
+    color: #0d9898;
+}
+dd {
+    padding-left: 0;
+    padding-top: 0px;
+    margin: 0;
+    color: #091d5d;
+}
+.color-numbering li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.color-numbering span {
+  color: #434343;
+}

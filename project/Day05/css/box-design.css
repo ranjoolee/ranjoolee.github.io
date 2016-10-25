@@ -1,0 +1,16 @@
+.box {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: #000;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 100px;
+	color: #fff;
+}
+
+.blue-box {background: #F39800; }
+.green-box {background: #22A8E0;}
+.deep-blue-box {background: #C04C80;}
+.yellow-box {background: #BCC122;}
+.pink-box {background: #6D519F;}

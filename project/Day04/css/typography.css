@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+}
+
+body {
+	font-family: "Spoqa Han Sans", Dotum, Gulim, Sans-Serif;
+	font-size: 1em
+	line-height: 1.5;
+	letter-spacing: -0.04em;
+	color: #121003;
+	background: url(../../Day03/images/leading-24.png);
+}
+p {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+}
+
+h6 {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+	font-size: 1em;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+h5 {
+	margin-top: 0;
+	margin-bottom: 1.2em;
+	font-size: 1.25em;
+	line-height: 1.2;
+	font-weight: 400;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 0.96em;
+  font-size: 1.5625em; /* 1*1.25*1.25em */
+  line-height: 1.92;
+  font-weight: 200;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.768em;
+  font-size: 1.953125em; /* 1*1.25*1.25*1.25em */
+  line-height: 1.536;
+  font-weight: 200;
+}
+
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.6144em;
+  font-size: 2.44140625em; /* 1*1.25*1.25*1.25*1.25em */
+  line-height: 1.2288;
+  font-weight: 200;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.49152em;
+  font-size: 3.0517578125em; /* 1*1.25*1.25*1.25*1.25*1.25em */
+  line-height: 1.47456;
+  font-weight: 200;
+}
+
+body {
+  width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#custom-setting {
+  /*font-size: 32px;*/
+  /*font-size: 1.7em;*/
+}
