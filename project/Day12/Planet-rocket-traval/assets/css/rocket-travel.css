@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+}
+
+
+		
+.space {
+	position: relative;
+	height: 7700px;
+	background: url(../space-bg.jpg) center top;
+}
+
+
+.Rocket {
+	position: fixed;
+	z-index: 1000;
+	top: 50%;
+	left:50%;
+	margin-left: -50px;
+	margin-top: -115px;
+	height: 204px;
+	width: 100px;
+	background: url(../rocketx2.png) no-repeat;
+	animation: Rocket 1s steps(10) infinite;
+	}
+
+	@keyframes Rocket {
+		0% { 
+			background-position: 0px; 
+			transform: scale(1) translateY(0);
+		}
+		50% {
+			transform: scale(0.95) translateY(-15px);
+		}
+
+		100% {
+			background-position: -1000px;
+			transform: scale(1) translateY(0);
+		}
+	}
+
+
+
+.moon {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	height: 503px;
+	width: 960px;
+	margin-left: -480px;
+	background: url(../moon.png) no-repeat;
+}
+
+.planets {
+	position: absolute;
+	left:50%;
+	width: 400px;
+	height: 400px;
+	margin-left: -200px;
+	background: url(../planets.png) no-repeat;
+}
+
+.sun {
+	top: 100px;
+}
+.Mercury{
+	top: 800px;
+	background-position: -400px 0;
+}
+.Venus {
+	top:1500px;
+	background-position: -800px 0;
+}
+.Earth {
+	top: 2200px;
+	background-position: -1600px 0;
+}
+.Mars {
+	top: 2900px;
+	background-position: -2000px 0;
+}
+.Jupiter {
+	top: 3600px;
+	background-position: -2400px 0;
+}
+.Saturn {
+	top: 4300px;
+	background-position: -2800px 0;
+}
+.Uranus {
+	top: 5000px;
+	background-position: -3200px 0;
+}
+.Neptune {
+	top: 5700px;
+	background-position: -3600px 0;
+}
+.Pluto {
+	top: 6400px;
+	background-position: -4000px 0;
+}
+
+
